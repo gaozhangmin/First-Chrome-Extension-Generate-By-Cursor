@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "Image Alt Copier",
+  "version": "1.0",
+  "description": "A Chrome extension that copies the URL and alt text of an image to the clipboard when clicked.",
+  "icons": {
+    "16": "icons/icon16-1-16.png",
+    "48": "icons/icon16-1-48.png",
+    "128": "icons/icon16-1-128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icons/icon16-1-16.png",
+    "default_popup": "popup.html"
+  }
+}
