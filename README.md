@@ -1,6 +1,8 @@
 ### Chrome Extension: Copy Picture Info
 This is a Chrome extension that allows users to easily copy the URL and alt text of pictures on a web page to their clipboard. This extension was generated using the Cursor Editor.
 
+https://www.cursor.so/
+
 ### Installation
 To install this extension, follow these steps:
 
